@@ -1,6 +1,6 @@
 // WorkoutRecommendations.jsx
 import { useState, useEffect } from "react";
-import "./Workoutrecommendation.css";
+import "./workoutrecommendation.css";
 
 export function WorkoutRecommendations({ userData }) {
   const [goal, setGoal] = useState("strength");
